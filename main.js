@@ -50,3 +50,9 @@ function backcmd(){
     document.getElementById("textbox").value = ""; 
     
 }
+function showbanner(){
+    riddlesbanner.style.display= "block";
+}
+function hidebanner(){
+    riddlesbanner.style.display= "none";
+}
