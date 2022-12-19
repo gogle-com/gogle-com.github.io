@@ -1,5 +1,5 @@
 var riddlesbanner = document.getElementById("riddlesbanner");
-hidebanner();
+
 var counter = 0
 //alert(counter)
 function gmailclick(){
