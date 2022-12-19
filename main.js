@@ -1,6 +1,6 @@
 
 var counter = 0
-alert(counter)
+//alert(counter)
 function gmailclick(){
     if (counter==0){
         counter = 1;
