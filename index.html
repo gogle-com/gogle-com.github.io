@@ -35,7 +35,7 @@
             <button onclick="luckyclick();">I'm Feeling Lucky</button>
         </div>
         <div>
-            <a href="#" style="color:blue;">Check us out on Youtube!<p></p></a>
+            <a href="#" onclick="showbanner()" style="color:blue;">Riddle of the day<p></p></a>
         </div>
     </main>
     <footer>
@@ -53,11 +53,26 @@
                 <a href="#">Settings</a>
             </div>
         </div>
+        <div class="riddles" id="riddlesbanner">
+            <button class="riddlesback" id="ridbac" onclick="hidebanner();">x</button>
+            <h1 class="riddlehead">Heres the riddle of the day:</h1>
+            <h4 class="riddletxt">I click them once, I click them
+                <p>twice. In order I tap, for</p><p></p> 
+                thee shall not yap. I tap and <p></p>
+                click on this page, for a great<p></p>
+            secret shall be seen.</h4>
+
+
+        </div>
         <div class="secretbox" id="secretbox">
             <button class="backbutton" id="backbutton" onclick="backcmd();">Reset Progress</button>
             <iframe src="https://invidious.io"></iframe>
         </div>
     </footer>
-<script>var x = document.getElementById("secretbox");
-    x.style.display= "none";</script>
+<script>
+var x = document.getElementById("secretbox");
+    x.style.display= "none";
+    var riddlesbanner = document.getElementById("riddlesbanner");
+    hidebanner();
+    </script>
 </body></html>
