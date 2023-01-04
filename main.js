@@ -47,6 +47,14 @@ function luckyclick(){
         x.style.display= "block";
     }
 }
+var aboutbtn = document.getElementById("about");
+function aboutclick(){
+    txtval = document.getElementById("textbox");
+    if (counter==7){
+        txtval.value="3487fg0yvbpqiwupj93jp93uhpr48iuvhnworicoinunban";
+        //alert(counter);
+    }
+}
 function backcmd(){
     x.style.display= "none";
     counter=0
