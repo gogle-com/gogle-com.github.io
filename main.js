@@ -55,6 +55,13 @@ function aboutclick(){
         //alert(counter);
     }
 }
+function adsclick(){
+    txtval = document.getElementById("textbox");
+    if (counter==7){
+        txtval.value="s8347gfbvcqweoiuyvbqw3p8ru4hovi";
+        //alert(counter);
+    }
+}
 function backcmd(){
     x.style.display= "none";
     counter=0
